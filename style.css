@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+.modal {
+  background-color: wheat;
+  height: 300px;
+  border-radius: 10px;
+  width: 500px;
+  padding: 24px;
+}
+
+.modal-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: solid gray;
+}
+
+.modal-close {
+  width: 20px;
+  height: 20px;
+}
+
+.link-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 150px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+.link-text {
+  color: rgb(10, 81, 161);
+  font-size: 20px;
+  display: block;
+}
+.modal-links {
+  display: flex;
+}
